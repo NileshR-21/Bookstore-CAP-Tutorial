@@ -1,6 +1,11 @@
-ID,title,author_ID,createdAt,createdBy,modifiedAt,modifiedBy
-783225c9-bea0-4afa-b5e6-9fdfdbf957cf,title-783225,13963860-7f97-4f5f-9d1e-14a1f098e96a,2016-04-25T00:00:00.000Z,createdBy.gsc9@example.net,2000-03-24T00:00:00.000Z,modifiedBy.gsc9@example.com
-78322642-2465-4e2d-b41f-78198992fc43,title-783226,13963860-7f97-4f5f-9d1e-14a1f098e96a,2021-07-31T00:00:00.000Z,createdBy.gsca@example.com,2002-06-26T00:00:00.000Z,modifiedBy.gsca@example.org
-78322795-34c9-4c28-bca7-32315d76e80f,title-783227,13963860-7f97-4f5f-9d1e-14a1f098e96a,2012-11-21T00:00:00.000Z,createdBy.gscb@example.net,2019-02-25T00:00:00.000Z,modifiedBy.gscb@example.net
-783228b9-d067-47c6-9162-86ea1ccc1c93,title-783228,13963860-7f97-4f5f-9d1e-14a1f098e96a,2020-10-15T00:00:00.000Z,createdBy.gscc@example.com,2019-03-09T00:00:00.000Z,modifiedBy.gscc@example.org
-78322927-b22a-465e-b731-de642e85ea5b,title-783229,13963860-7f97-4f5f-9d1e-14a1f098e96a,2023-08-19T00:00:00.000Z,createdBy.gscd@example.org,2008-04-12T00:00:00.000Z,modifiedBy.gscd@example.org
+ID,title,author_ID,genre,publishedAt,pages,price,createdAt,createdBy,modifiedAt,modifiedBy
+16232841-717d-4a32-9382-0cad6e5624bc,title-16232841,23367619-1783-48f6-bda9-486ce1cac28c,genre-16232841,2002-02-26,40,9.9,2012-09-02T00:00:00.000Z,createdBy.9nxc9@example.org,2006-03-17T00:00:00.000Z,modifiedBy.9nxc9@example.com
+16232842-e22d-459b-9614-99e11fe2b88f,title-16232842,23367619-1783-48f6-bda9-486ce1cac28c,genre-16232842,2011-12-25,76,6.88,2020-01-15T00:00:00.000Z,createdBy.9nxca@example.com,2004-07-07T00:00:00.000Z,modifiedBy.9nxca@example.net
+16232843-8256-42c8-96a1-e3a401e7fcb5,title-16232843,23367619-1783-48f6-bda9-486ce1cac28c,genre-16232843,2002-05-22,31,8.32,2016-10-26T00:00:00.000Z,createdBy.9nxcb@example.org,2012-09-09T00:00:00.000Z,modifiedBy.9nxcb@example.net
+16232844-aeae-4175-bf55-bd6b9dc41b2a,title-16232844,23367619-1783-48f6-bda9-486ce1cac28c,genre-16232844,2004-09-28,1,2.56,2008-09-16T00:00:00.000Z,createdBy.9nxcc@example.net,2015-08-02T00:00:00.000Z,modifiedBy.9nxcc@example.com
+16232845-075c-4f76-9ced-c65f15c49b50,title-16232845,23367619-1783-48f6-bda9-486ce1cac28c,genre-16232845,2022-10-16,60,3.74,2001-08-30T00:00:00.000Z,createdBy.9nxcd@example.org,2018-08-22T00:00:00.000Z,modifiedBy.9nxcd@example.net
+16232846-6d32-4051-981c-c30c4e62ceeb,title-16232846,23367619-1783-48f6-bda9-486ce1cac28c,genre-16232846,2009-06-14,61,7.09,2007-09-26T00:00:00.000Z,createdBy.9nxce@example.net,2008-01-23T00:00:00.000Z,modifiedBy.9nxce@example.net
+16232847-8177-4107-bce6-5a0e8c39e033,title-16232847,23367619-1783-48f6-bda9-486ce1cac28c,genre-16232847,2016-08-10,55,5.44,2016-09-06T00:00:00.000Z,createdBy.9nxcf@example.net,2004-12-15T00:00:00.000Z,modifiedBy.9nxcf@example.org
+16232848-fd0f-4eee-8d08-8f929b5f5a81,title-16232848,23367619-1783-48f6-bda9-486ce1cac28c,genre-16232848,2002-09-27,23,8.05,2010-08-19T00:00:00.000Z,createdBy.9nxcg@example.net,2008-05-06T00:00:00.000Z,modifiedBy.9nxcg@example.org
+16232849-714a-43e6-8fce-b772059f6df7,title-16232849,23367619-1783-48f6-bda9-486ce1cac28c,genre-16232849,2012-08-26,48,2.73,2023-08-17T00:00:00.000Z,createdBy.9nxch@example.org,2011-02-17T00:00:00.000Z,modifiedBy.9nxch@example.org
+16232850-abf4-4903-9b5e-300a1986f089,title-16232850,23367619-1783-48f6-bda9-486ce1cac28c,genre-16232850,2011-12-22,33,8.5,2015-05-17T00:00:00.000Z,createdBy.9nxci@example.com,2004-10-02T00:00:00.000Z,modifiedBy.9nxci@example.com
