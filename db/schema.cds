@@ -22,6 +22,8 @@ entity Authors : cuid, managed {
 }
 
 entity Chapter : cuid, managed {
-    number : Integer;
     key book : Association to Books;
+    number : Integer;
+    title: String;
+    pages: Integer;
 }

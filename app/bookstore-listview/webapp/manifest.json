@@ -92,6 +92,11 @@
           "pattern": "Books({key}):?query:",
           "name": "BooksObjectPage",
           "target": "BooksObjectPage"
+        },
+        {
+          "name": "Books_ChaptersObjectPage",
+          "pattern": "Books({key})/Chapters({ChaptersKey}):?query:",
+          "target": "Books_ChaptersObjectPage"
         }
       ],
       "targets": {
@@ -113,7 +118,8 @@
               "controlConfiguration": {
                 "@com.sap.vocabularies.UI.v1.LineItem": {
                   "tableSettings": {
-                    "type": "ResponsiveTable"
+                    "type": "ResponsiveTable",
+                    "enableMassEdit": false
                   }
                 }
               },
@@ -128,7 +134,25 @@
           "options": {
             "settings": {
               "editableHeaderContent": false,
-              "contextPath": "/Books"
+              "contextPath": "/Books",
+              "navigation": {
+                "Chapters": {
+                  "detail": {
+                    "route": "Books_ChaptersObjectPage"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "Books_ChaptersObjectPage": {
+          "type": "Component",
+          "id": "Books_ChaptersObjectPage",
+          "name": "sap.fe.templates.ObjectPage",
+          "options": {
+            "settings": {
+              "navigation": {},
+              "contextPath": "/Books/Chapters"
             }
           }
         }
