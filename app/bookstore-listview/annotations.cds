@@ -5,18 +5,23 @@ annotate service.Books with @(
         Data : [
             {
                 $Type : 'UI.DataField',
-                Label : 'Published At',
-                Value : publishedAt,
+                Value : genre,
             },
             {
                 $Type : 'UI.DataField',
-                Label : 'Pages',
-                Value : pages,
+                Value : status_code,
+                Criticality : status.criticality,
+                CriticalityRepresentation : #WithIcon,
             },
             {
                 $Type : 'UI.DataField',
                 Label : 'Price',
                 Value : price,
+            },
+            {
+                $Type : 'UI.DataField',
+                Label : 'Published At',
+                Value : publishedAt,
             },
         ],
     },
@@ -24,7 +29,7 @@ annotate service.Books with @(
         {
             $Type : 'UI.ReferenceFacet',
             ID : 'GeneratedFacet1',
-            Label : 'General Information',
+            Label : 'General Info',
             Target : '@UI.FieldGroup#GeneratedGroup',
         },
         {
@@ -43,6 +48,13 @@ annotate service.Books with @(
     UI.LineItem : [
         {
             $Type : 'UI.DataField',
+            Value : status_code,
+            Label : 'Status',
+            Criticality : status.criticality,
+            CriticalityRepresentation : #WithIcon,
+        },
+        {
+            $Type : 'UI.DataField',
             Label : 'Title',
             Value : title,
         },
@@ -50,6 +62,11 @@ annotate service.Books with @(
             $Type : 'UI.DataField',
             Label : 'Genre',
             Value : genre,
+        },
+        {
+            $Type : 'UI.DataField',
+            Value : author.name,
+            Label : 'Author Name',
         },
         {
             $Type : 'UI.DataField',
@@ -79,6 +96,7 @@ annotate service.Books with @(
         title,
         genre,
         price,
+        status_code,
     ],
     UI.DataPoint #pages : {
         Value : pages,
@@ -97,9 +115,10 @@ annotate service.Books with @(
             $Type : 'UI.DataField',
             Value : title,
         },
+        TypeImageUrl : 'sap-icon://course-book',
         Description : {
             $Type : 'UI.DataField',
-            Value : genre,
+            Value : author.name,
         },
     },
     UI.FieldGroup #EntryInfo : {
@@ -210,4 +229,30 @@ annotate service.Chapters with @(
         ],
     },
 );
+
+annotate service.Books with {
+    status @(
+        Common.Label : 'Status',
+        Common.Text : status.displayText,
+        Common.Text.@UI.TextArrangement : #TextOnly,
+        Common.ValueList : {
+            $Type : 'Common.ValueListType',
+            CollectionPath : 'Bookstatus',
+            Parameters : [
+                {
+                    $Type : 'Common.ValueListParameterInOut',
+                    LocalDataProperty : status_code,
+                    ValueListProperty : 'code',
+                },
+            ],
+        },
+        Common.ValueListWithFixedValues : true,
+    )
+};
+
+annotate service.Bookstatus with {
+    code @(
+        Common.Text : displayText,
+        Common.Text.@UI.TextArrangement : #TextOnly,
+)};
 

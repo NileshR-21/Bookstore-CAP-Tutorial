@@ -1,6 +1,6 @@
-ID,title,author_ID,genre,publishedAt,pages,price,createdAt,createdBy,modifiedAt,modifiedBy
-83931780-3f77-41a3-aae4-a7e09ba3feee,1984,84170208-2987-4feb-a484-387b9160b43f,Dystopian,2007-12-31,328,9.99,2016-11-24T00:00:00.000Z,createdBy.4zw7u@example.org,2004-06-03T00:00:00.000Z,modifiedBy.4zw7u@example.com
-8393179c-2b45-4b3c-8bbd-b2041c165f25,Animal Farm,84170208-2987-4feb-a484-387b9160b43f,Political Satire,2016-06-02,112,6.99,2016-05-14T00:00:00.000Z,createdBy.4zw7v@example.net,2011-10-11T00:00:00.000Z,modifiedBy.4zw7v@example.net
-83931809-de43-4264-b6da-a687b1ace000,Harry Potter and the Philosopher's Stone,84170208-2987-4feb-a484-387b9160b43f,Fantasy,2020-10-26,223,12.99,2019-01-31T00:00:00.000Z,createdBy.4zw7w@example.com,2008-08-14T00:00:00.000Z,modifiedBy.4zw7w@example.org
-8393181b-cfd0-4132-82c8-956bdb403e5b,The Hobbit,84170208-2987-4feb-a484-387b9160b43f,Fantasy,2012-11-21,310,10.99,2011-04-16T00:00:00.000Z,createdBy.4zw7x@example.net,2019-12-29T00:00:00.000Z,modifiedBy.4zw7x@example.com
-83931821-7bad-4cfc-8633-53c7b87dbe78,Sapiens,84170208-2987-4feb-a484-387b9160b43f,History,2014-01-23,498,18.99,2003-07-07T00:00:00.000Z,createdBy.4zw7y@example.net,2003-07-10T00:00:00.000Z,modifiedBy.4zw7y@example.net
+status_code,ID,title,author_ID,genre,publishedAt,pages,price,createdAt,createdBy,modifiedAt,modifiedBy
+A,83931780-3f77-41a3-aae4-a7e09ba3feee,1984,84170208-2987-4feb-a484-387b9160b43f,Dystopian,2007-12-31,328,9.99,2016-11-24T00:00:00.000Z,createdBy.4zw7u@example.org,2004-06-03T00:00:00.000Z,modifiedBy.4zw7u@example.com
+L,8393179c-2b45-4b3c-8bbd-b2041c165f25,Animal Farm,13199928-d72c-4017-a682-2dac212a6da5,Political Satire,2016-06-02,112,6.99,2016-05-14T00:00:00.000Z,createdBy.4zw7v@example.net,2011-10-11T00:00:00.000Z,modifiedBy.4zw7v@example.net
+U,83931809-de43-4264-b6da-a687b1ace000,Harry Potter and the Philosopher's Stone,13199927-60e8-4ae8-87b2-9c7b19a22697,Fantasy,2020-10-26,223,12.99,2019-01-31T00:00:00.000Z,createdBy.4zw7w@example.com,2008-08-14T00:00:00.000Z,modifiedBy.4zw7w@example.org
+A,8393181b-cfd0-4132-82c8-956bdb403e5b,The Hobbit,13199929-e5c4-4a33-8f67-7260b72cb9c5,Fantasy,2012-11-21,310,10.99,2011-04-16T00:00:00.000Z,createdBy.4zw7x@example.net,2019-12-29T00:00:00.000Z,modifiedBy.4zw7x@example.com
+L,83931821-7bad-4cfc-8633-53c7b87dbe78,Sapiens,13199930-95db-4e05-88fa-7e5fb51294c5,History,2014-01-23,498,18.99,2003-07-07T00:00:00.000Z,createdBy.4zw7y@example.net,2003-07-10T00:00:00.000Z,modifiedBy.4zw7y@example.net
