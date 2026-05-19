@@ -23,6 +23,11 @@ annotate service.Books with @(
                 Label : 'Published At',
                 Value : publishedAt,
             },
+            {
+                $Type : 'UI.DataField',
+                Value : currency_code,
+                Label : 'Currency',
+            },
         ],
     },
     UI.Facets : [
