@@ -10,13 +10,30 @@ entity Books : cuid, managed {
     status      : Association to Bookstatus;
     title       : String;
     author      : Association to Authors;
-    genre       : String;
+    genre       : Association to Genres;
     publishedAt : Date;
     pages       : Integer;
     price       : Decimal(3, 2);
     currency    : Association to Currencies;
     Chapters    : Composition of many Chapter
                       on Chapters.book = $self;
+}
+
+entity Genres {
+    key code : GenreType;
+        description : String;
+}
+
+type GenreType : String enum{
+    Dystopian = 'Dystopian';
+    Political = 'Political';
+    Fantasy = 'Fantasy';
+    History = 'History';
+    Fiction = 'Fiction';
+    Romance = 'Romance';
+    Thriller = 'Thriller';
+    Biography = 'Biography';
+    Mystery = 'Mystery';
 }
 
 entity Bookstatus {
